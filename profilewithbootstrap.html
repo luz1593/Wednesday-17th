@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="profilewithbootstrap_style.css">
+</head>
+
+<body>
+	
+
+	<h1>Profile</h1>
+	<form method="POST" action="/profile/edit">
+	
+		<img src="http://www.academyft.com/dev3/images/icon-person-no-photo.png">
+
+		<div class="form-group">
+    		<label for="exampleInputFile">Upload your picture</label>
+    		<input type="file" id="exampleInputFile">
+  		</div>
+
+		<div class="form-group">
+			<label for="first_name">First Name</label>
+			<input type="text" name="first_name" id="first_name">
+		</div>
+		<div class="form-group">
+			<label for="last_name">Last Name</label>
+			<input type="text" name="last_name" id="last_name">
+		</div>
+		<div class="form-group">
+			<label for="gender">Gender</label>
+			Male: <input type="radio" name="gender" value="M">
+			Female: <input type="radio" name="gender" value="F">
+		</div>
+		<div class="form-group">
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="email@email.com">
+		</div>
+		<div>
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password">
+		</div>
+
+		<button type="button" class="btn btn-info">Submit</button>
+
+
+
+	</form>
+ 
+
+
+
+
+</body>
+</html>
